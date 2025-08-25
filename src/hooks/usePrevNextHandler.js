@@ -8,6 +8,7 @@ function usePrevNextHandler(name, alias, topics, photoNo) {
   const getCurrentTopic = () => {
     // topics parameter should contain the current topic (e.g., "family", "photos", etc.)
     // If topics is not provided or invalid, fall back to "info"
+    console.log("Topics parameter received:", topics);
     if (topics && typeof topics === "string") {
       return topics;
     }
