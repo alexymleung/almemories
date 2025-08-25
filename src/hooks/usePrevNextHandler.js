@@ -10,25 +10,42 @@ function usePrevNextHandler(name, alias, topics, photoNo) {
 
     console.log("Path parts:", parts);
 
-    // Remove basename "/almemories" if present to get consistent path structure
-    const normalizedParts = parts[0] === "almemories" ? parts.slice(1) : parts;
+    // Handle different deployment scenarios:
+    // 1. Local development: ["chris", "chrisphotos", "plate35"]
+    // 2. Vite preview: ["almemories", "chris", "chrisphotos", "plate35"]
+    // 3. GitHub Pages: ["almemories", "jonathan", "jonfamily", "plate03"]
+
+    let normalizedParts;
+
+    // Check if this is GitHub Pages deployment (path starts with repository name)
+    if (parts.length >= 4 && parts[0] === "almemories") {
+      // GitHub Pages: ["almemories", "jonathan", "jonfamily", "plate03"]
+      normalizedParts = parts.slice(1); // Remove "almemories" -> ["jonathan", "jonfamily", "plate03"]
+    } else if (parts.length >= 3 && parts[0] === "almemories") {
+      // Vite preview: ["almemories", "chris", "chrisphotos", "plate35"]
+      normalizedParts = parts.slice(1); // Remove "almemories" -> ["chris", "chrisphotos", "plate35"]
+    } else {
+      // Local development: ["chris", "chrisphotos", "plate35"]
+      normalizedParts = parts;
+    }
 
     console.log("Normalized parts:", normalizedParts);
 
     // Determine the correct index for the topic segment
-    // After removing basename: ["chris", "chrisphotos", "plate35"] - topic at index 1
+    // After normalization: ["jonathan", "jonfamily", "plate03"] - topic at index 1
     let topicSegment;
 
     if (normalizedParts.length >= 2) {
       topicSegment = normalizedParts[1];
       console.log("Topic segment:", topicSegment);
 
-      // Extract the actual topic name from the combined string (e.g., "chrisphotos" -> "photos")
-      // The topic segment is the combined name + topic (e.g., "chrisphotos")
+      // Extract the actual topic name from the combined string (e.g., "jonfamily" -> "family")
+      // The topic segment is the combined name + topic (e.g., "jonfamily")
       // We need to remove the person's name prefix to get just the topic
-      const personName = normalizedParts[0]; // e.g., "chris"
-      if (topicSegment.startsWith(personName)) {
-        const topic = topicSegment.substring(personName.length);
+      const personName = normalizedParts[0]; // e.g., "jonathan"
+      if (topicSegment.startsWith(personName.substring(0, 3))) {
+        // Use first 3 chars for matching
+        const topic = topicSegment.substring(personName.substring(0, 3).length);
         console.log("Extracted topic:", topic);
         return topic;
       }
