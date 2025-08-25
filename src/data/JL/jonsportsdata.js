@@ -1,23 +1,23 @@
 import { useTheme } from "../../hooks/useTheme";
-import JonBanner from "/public/assets/JL/images/Buttons/JonathanBanner.webp";
+import JonBanner from "../../assets/JL/images/Buttons/JonathanBanner.webp";
 
-import JonSportsHero from "/public/assets/JL/images/fa070902_649ar.jpg";
-import fa070902_669ar from "/public/assets/JL/images/fa070902_669ar.jpg";
-import fa071014_056ar from "/public/assets/JL/images/fa071014_056ar.jpg";
-import fa081018_724ar from "/public/assets/JL/images/fa081018_724ar.jpg";
-import fa081001_699ar from "/public/assets/JL/images/fa081001_699ar.jpg";
-import fa050822_230_780 from "/public/assets/JL/images/fa050822_230_780.jpg";
-import fa070408_075ar from "/public/assets/JL/images/fa070408_075ar.jpg";
-import fa080512_319ar from "/public/assets/JL/images/fa080512_319ar.jpg";
-import fa061226_016ar from "/public/assets/JL/images/fa061226_016ar.jpg";
-import fa070311_021ar from "/public/assets/JL/images/fa070311_021ar.jpg";
-import IMG_0811_JPG from "/public/assets/JL/images/IMG_0811_JPG.jpg";
-import IMG_0844 from "/public/assets/JL/images/IMG_0844.jpg";
-import fa070204_603ar from "/public/assets/JL/images/fa070204_603ar.jpg";
-import fa060811_605ar from "/public/assets/JL/images/fa060811_605ar.jpg";
-import fa070707_179ar from "/public/assets/JL/images/fa070707_179ar.jpg";
-import Thailand_001Cr from "/public/assets/JL/images/Thailand_001Cr.jpg";
-import fa070902_533ar from "/public/assets/JL/images/fa070902_533ar.jpg";
+import JonSportsHero from "../../assets/JL/images/fa070902_649ar.jpg";
+import fa070902_669ar from "../../assets/JL/images/fa070902_669ar.jpg";
+import fa071014_056ar from "../../assets/JL/images/fa071014_056ar.jpg";
+import fa081018_724ar from "../../assets/JL/images/fa081018_724ar.jpg";
+import fa081001_699ar from "../../assets/JL/images/fa081001_699ar.jpg";
+import fa050822_230_780 from "../../assets/JL/images/fa050822_230_780.jpg";
+import fa070408_075ar from "../../assets/JL/images/fa070408_075ar.jpg";
+import fa080512_319ar from "../../assets/JL/images/fa080512_319ar.jpg";
+import fa061226_016ar from "../../assets/JL/images/fa061226_016ar.jpg";
+import fa070311_021ar from "../../assets/JL/images/fa070311_021ar.jpg";
+import IMG_0811_JPG from "../../assets/JL/images/IMG_0811_JPG.jpg";
+import IMG_0844 from "../../assets/JL/images/IMG_0844.jpg";
+import fa070204_603ar from "../../assets/JL/images/fa070204_603ar.jpg";
+import fa060811_605ar from "../../assets/JL/images/fa060811_605ar.jpg";
+import fa070707_179ar from "../../assets/JL/images/fa070707_179ar.jpg";
+import Thailand_001Cr from "../../assets/JL/images/Thailand_001Cr.jpg";
+import fa070902_533ar from "../../assets/JL/images/fa070902_533ar.jpg";
 
 export const JonSportsData = () => {
   const { currentTheme } = useTheme();

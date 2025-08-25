@@ -1,15 +1,15 @@
 import { useTheme } from "../../hooks/useTheme";
-import ChrisBanner from "/public/assets/CL/images/Buttons/ChrisBanner.webp";
-import ChrisFamilyHero from "/public/assets/CL/images/fa060704_404ar.jpg";
-import fa021109_029ar from "/public/assets/CL/images/fa021109_029ar.jpg";
-import fa000404_141A from "/public/assets/CL/images/fa000404_141A.jpg";
-import fa070107_548ar from "/public/assets/CL/images/fa070107_548ar.jpg";
-import fa070819_175ar from "/public/assets/CL/images/fa070819_175ar.jpg";
-import fa070513_001Bar from "/public/assets/CL/images/fa070513_001Bar.jpg";
-import fa070602_400ar from "/public/assets/CL/images/fa070602_400ar.jpg";
-import fa070902_003Bar from "/public/assets/CL/images/fa070902_003Bar.jpg";
-import fa040101_021ar from "/public/assets/CL/images/fa040101_021ar.jpg";
-import fa071208_039ar from "/public/assets/CL/images/fa071208_039ar.jpg";
+import ChrisBanner from "../../assets/CL/images/Buttons/ChrisBanner.webp";
+import ChrisFamilyHero from "../../assets/CL/images/fa060704_404ar.jpg";
+import fa021109_029ar from "../../assets/CL/images/fa021109_029ar.jpg";
+import fa000404_141A from "../../assets/CL/images/fa000404_141A.jpg";
+import fa070107_548ar from "../../assets/CL/images/fa070107_548ar.jpg";
+import fa070819_175ar from "../../assets/CL/images/fa070819_175ar.jpg";
+import fa070513_001Bar from "../../assets/CL/images/fa070513_001Bar.jpg";
+import fa070602_400ar from "../../assets/CL/images/fa070602_400ar.jpg";
+import fa070902_003Bar from "../../assets/CL/images/fa070902_003Bar.jpg";
+import fa040101_021ar from "../../assets/CL/images/fa040101_021ar.jpg";
+import fa071208_039ar from "../../assets/CL/images/fa071208_039ar.jpg";
 
 export const ChrisFamilyData = () => {
   const { currentTheme } = useTheme();

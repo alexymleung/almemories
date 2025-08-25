@@ -1,8 +1,8 @@
 import { useTheme } from "../../hooks/useTheme";
-import ChrisBanner from "/public/assets/CL/images/Buttons/ChrisBanner.webp";
+import ChrisBanner from "../../assets/CL/images/Buttons/ChrisBanner.webp";
 
-import ChrisSchoolHero from "/public/assets/CL/images/fa080523_092ar.jpg";
-import fa071006_110ar from "/public/assets/CL/images/fa071006_110ar.jpg";
+import ChrisSchoolHero from "../../assets/CL/images/fa080523_092ar.jpg";
+import fa071006_110ar from "../../assets/CL/images/fa071006_110ar.jpg";
 
 export const ChrisSchoolData = () => {
   const { currentTheme } = useTheme();

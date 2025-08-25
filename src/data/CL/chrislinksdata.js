@@ -1,7 +1,7 @@
 import { useTheme } from "../../hooks/useTheme";
-import ChrisBanner from "/public/assets/CL/images/Buttons/ChrisBanner.webp";
+import ChrisBanner from "../../assets/CL/images/Buttons/ChrisBanner.webp";
 
-import ChrisLinksHero from "/public/assets/CL/images/fa070818_002Bar.jpg";
+import ChrisLinksHero from "../../assets/CL/images/fa070818_002Bar.jpg";
 
 export const ChrisLinksData = () => {
   const { currentTheme } = useTheme();

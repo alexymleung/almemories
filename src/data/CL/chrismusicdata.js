@@ -1,8 +1,8 @@
 import { useTheme } from "../../hooks/useTheme";
-import ChrisBanner from "/public/assets/CL/images/Buttons/ChrisBanner.webp";
-import ChrisMusicHero from "/public/assets/CL/images/fa080404_325ar.jpg";
-import fa080404_113ar from "/public/assets/CL/images/fa080404_113ar.jpg";
-import fa050305_129ar from "/public/assets/CL/images/fa050305_129ar.jpg";
+import ChrisBanner from "../../assets/CL/images/Buttons/ChrisBanner.webp";
+import ChrisMusicHero from "../../assets/CL/images/fa080404_325ar.jpg";
+import fa080404_113ar from "../../assets/CL/images/fa080404_113ar.jpg";
+import fa050305_129ar from "../../assets/CL/images/fa050305_129ar.jpg";
 
 export const ChrisMusicData = () => {
   const { currentTheme } = useTheme();

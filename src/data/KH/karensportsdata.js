@@ -1,12 +1,12 @@
 import { useTheme } from "../../hooks/useTheme";
-import KarenBanner from "/public/assets/KH/images/Buttons/KarenBanner.webp";
-import KarenSportsHero from "/public/assets/KH/images/AL939400360.webp";
-import fa080501_096ar from "/public/assets/KH/images/fa080501_096ar.jpg";
-import f0990712_036ar from "/public/assets/KH/images/f0990712_036ar.jpg";
-import fa020824_032ar from "/public/assets/KH/images/fa020824_032ar.jpg";
-import fa030501_076ar from "/public/assets/KH/images/fa030501_076ar.jpg";
-import _950629_031 from "/public/assets/KH/images/950629_031.jpg";
-import fa080506_304ar from "/public/assets/KH/images/fa080506_304ar.jpg";
+import KarenBanner from "../../assets/KH/images/Buttons/KarenBanner.webp";
+import KarenSportsHero from "../../assets/KH/images/AL939400360.webp";
+import fa080501_096ar from "../../assets/KH/images/fa080501_096ar.jpg";
+import f0990712_036ar from "../../assets/KH/images/f0990712_036ar.jpg";
+import fa020824_032ar from "../../assets/KH/images/fa020824_032ar.jpg";
+import fa030501_076ar from "../../assets/KH/images/fa030501_076ar.jpg";
+import _950629_031 from "../../assets/KH/images/950629_031.jpg";
+import fa080506_304ar from "../../assets/KH/images/fa080506_304ar.jpg";
 
 export const KarenSportsData = () => {
   const { currentTheme } = useTheme();

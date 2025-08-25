@@ -1,9 +1,9 @@
 import { useTheme } from "../../hooks/useTheme";
-import KarenBanner from "/public/assets/KH/images/Buttons/KarenBanner.webp";
-import KarenSchoolHero from "/public/assets/KH/images/AL901110013.webp";
-import fa020421_002ar from "/public/assets/KH/images/fa020421_002ar.jpg";
-import IMG_20170131_WA0022 from "/public/assets/KH/images/IMG-20170131-WA0022.jpg";
-import ka_CU_Picnic from "/public/assets/KH/images/ka_CU_Picnic.jpg";
+import KarenBanner from "../../assets/KH/images/Buttons/KarenBanner.webp";
+import KarenSchoolHero from "../../assets/KH/images/AL901110013.webp";
+import fa020421_002ar from "../../assets/KH/images/fa020421_002ar.jpg";
+import IMG_20170131_WA0022 from "../../assets/KH/images/IMG-20170131-WA0022.jpg";
+import ka_CU_Picnic from "../../assets/KH/images/ka_CU_Picnic.jpg";
 
 export const KarenSchoolData = () => {
   const { currentTheme } = useTheme();

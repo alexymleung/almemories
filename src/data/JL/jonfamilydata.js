@@ -1,14 +1,14 @@
 import { useTheme } from "../../hooks/useTheme";
-import JonBanner from "/public/assets/JL/images/Buttons/JonathanBanner.webp";
-import JonFamilyHero from "/public/assets/JL/images/fa051204_323ar.jpg";
-import f0991204_023ar from "/public/assets/JL/images/f0991204_023ar.jpg";
-import fa021011_029ar from "/public/assets/JL/images/fa021011_029ar.jpg";
-import fa070128_073ar from "/public/assets/JL/images/fa070128_073ar.jpg";
-import fa020303_039ar from "/public/assets/JL/images/fa020303_039ar.jpg";
-import fa040424_006ar from "/public/assets/JL/images/fa040424_006ar.jpg";
-import fa020113_120Bar from "/public/assets/JL/images/fa020113_120Bar.jpg";
-import fa060127_002Bar from "/public/assets/JL/images/fa060127_002Bar.jpg";
-import fa070602_003Bar from "/public/assets/JL/images/fa070602_003Bar.jpg";
+import JonBanner from "../../assets/JL/images/Buttons/JonathanBanner.webp";
+import JonFamilyHero from "../../assets/JL/images/fa051204_323ar.jpg";
+import f0991204_023ar from "../../assets/JL/images/f0991204_023ar.jpg";
+import fa021011_029ar from "../../assets/JL/images/fa021011_029ar.jpg";
+import fa070128_073ar from "../../assets/JL/images/fa070128_073ar.jpg";
+import fa020303_039ar from "../../assets/JL/images/fa020303_039ar.jpg";
+import fa040424_006ar from "../../assets/JL/images/fa040424_006ar.jpg";
+import fa020113_120Bar from "../../assets/JL/images/fa020113_120Bar.jpg";
+import fa060127_002Bar from "../../assets/JL/images/fa060127_002Bar.jpg";
+import fa070602_003Bar from "../../assets/JL/images/fa070602_003Bar.jpg";
 
 export const JonFamilyData = () => {
   const { currentTheme } = useTheme();

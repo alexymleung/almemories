@@ -1,13 +1,13 @@
 import { useTheme } from "../../hooks/useTheme";
-import KarenBanner from "/public/assets/KH/images/Buttons/KarenBanner.webp";
-import KarenHobbyHero from "/public/assets/KH/images/fa020512_059ar.jpg";
-import fa070107_593ar from "/public/assets/KH/images/fa070107_593ar.jpg";
-import fa030105_040ar from "/public/assets/KH/images/fa030105_040ar.jpg";
-import fa031116_014ar from "/public/assets/KH/images/fa031116_014ar.jpg";
-import fa060827_303ar from "/public/assets/KH/images/fa060827_303ar.jpg";
-import fa020417_122ar from "/public/assets/KH/images/fa020417_122ar.jpg";
-import fa040424_006ar from "/public/assets/KH/images/fa040424_006ar.jpg";
-import fa040725_134ar from "/public/assets/KH/images/fa040725_134ar.jpg";
+import KarenBanner from "../../assets/KH/images/Buttons/KarenBanner.webp";
+import KarenHobbyHero from "../../assets/KH/images/fa020512_059ar.jpg";
+import fa070107_593ar from "../../assets/KH/images/fa070107_593ar.jpg";
+import fa030105_040ar from "../../assets/KH/images/fa030105_040ar.jpg";
+import fa031116_014ar from "../../assets/KH/images/fa031116_014ar.jpg";
+import fa060827_303ar from "../../assets/KH/images/fa060827_303ar.jpg";
+import fa020417_122ar from "../../assets/KH/images/fa020417_122ar.jpg";
+import fa040424_006ar from "../../assets/KH/images/fa040424_006ar.jpg";
+import fa040725_134ar from "../../assets/KH/images/fa040725_134ar.jpg";
 
 export const KarenHobbyData = () => {
   const { currentTheme } = useTheme();

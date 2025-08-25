@@ -1,18 +1,18 @@
 import { useTheme } from "../../hooks/useTheme";
-import CaraBanner from "/public/assets/CR/images/Buttons/CaraBanner.webp";
-import CaraSportsHero from "/public/assets/CR/images/fa070408_048ar.jpg";
-import fa040418_036ar from "/public/assets/CR/images/fa040418_036ar.jpg";
-import fa061203_212ar from "/public/assets/CR/images/fa061203_212ar.jpg";
-import fa070408_084ar from "/public/assets/CR/images/fa070408_084ar.jpg";
-import fa080420_196ar from "/public/assets/CR/images/fa080420_196ar.jpg";
-import fa080501_024ar from "/public/assets/CR/images/fa080501_024ar.jpg";
-import fa060102_322ar from "/public/assets/CR/images/fa060102_322ar.jpg";
-import fa040613_103ar from "/public/assets/CR/images/fa040613_103ar.jpg";
-import fa041022_011ar from "/public/assets/CR/images/fa041022_011ar.jpg";
-import fa070303_247ar from "/public/assets/CR/images/fa070303_247ar.jpg";
-import fa080119_562ar from "/public/assets/CR/images/fa080119_562ar.jpg";
-import fa071223_349ar from "/public/assets/CR/images/fa071223_349ar.jpg";
-import fa070722_361ar from "/public/assets/CR/images/fa070722_361ar.jpg";
+import CaraBanner from "../../assets/CR/images/Buttons/CaraBanner.webp";
+import CaraSportsHero from "../../assets/CR/images/fa070408_048ar.jpg";
+import fa040418_036ar from "../../assets/CR/images/fa040418_036ar.jpg";
+import fa061203_212ar from "../../assets/CR/images/fa061203_212ar.jpg";
+import fa070408_084ar from "../../assets/CR/images/fa070408_084ar.jpg";
+import fa080420_196ar from "../../assets/CR/images/fa080420_196ar.jpg";
+import fa080501_024ar from "../../assets/CR/images/fa080501_024ar.jpg";
+import fa060102_322ar from "../../assets/CR/images/fa060102_322ar.jpg";
+import fa040613_103ar from "../../assets/CR/images/fa040613_103ar.jpg";
+import fa041022_011ar from "../../assets/CR/images/fa041022_011ar.jpg";
+import fa070303_247ar from "../../assets/CR/images/fa070303_247ar.jpg";
+import fa080119_562ar from "../../assets/CR/images/fa080119_562ar.jpg";
+import fa071223_349ar from "../../assets/CR/images/fa071223_349ar.jpg";
+import fa070722_361ar from "../../assets/CR/images/fa070722_361ar.jpg";
 
 export const CaraSportsData = () => {
   const { currentTheme } = useTheme();

@@ -1,13 +1,13 @@
 import { useTheme } from "../../hooks/useTheme";
-import JonBanner from "/public/assets/JL/images/Buttons/JonathanBanner.webp";
-import JonMusicHero from "/public/assets/JL/images/fa080405_097ar.jpg";
-import fa080405_062ar from "/public/assets/JL/images/fa080405_062ar.jpg";
-import fa080506_396ar from "/public/assets/JL/images/fa080506_396ar.jpg";
-import fa020310_029a from "/public/assets/JL/images/fa020310_029a.jpg";
-import F1140028 from "/public/assets/JL/images/F1140028.jpg";
-import fa071202_462a from "/public/assets/JL/images/fa071202_462a.jpg";
-import JL_Harmonica_Montage_ar from "/public/assets/JL/images/JL_Harmonica_Montage_ar.jpg";
-import JL070908_PreludeInC from "/public/assets/JL/multimedia/JL070908_PreludeInC.mp3";
+import JonBanner from "../../assets/JL/images/Buttons/JonathanBanner.webp";
+import JonMusicHero from "../../assets/JL/images/fa080405_097ar.jpg";
+import fa080405_062ar from "../../assets/JL/images/fa080405_062ar.jpg";
+import fa080506_396ar from "../../assets/JL/images/fa080506_396ar.jpg";
+import fa020310_029a from "../../assets/JL/images/fa020310_029a.jpg";
+import F1140028 from "../../assets/JL/images/F1140028.jpg";
+import fa071202_462a from "../../assets/JL/images/fa071202_462a.jpg";
+import JL_Harmonica_Montage_ar from "../../assets/JL/images/JL_Harmonica_Montage_ar.jpg";
+import JL070908_PreludeInC from "../../assets/JL/multimedia/JL070908_PreludeInC.mp3";
 
 export const JonMusicData = () => {
   const { currentTheme } = useTheme();

@@ -1,11 +1,11 @@
 import { useTheme } from "../../hooks/useTheme";
-import CaraBanner from "/public/assets/CR/images/Buttons/CaraBanner.webp";
-import CaraSchoolHero from "/public/assets/CR/images/fa080412_327ar.jpg";
-import fa080412_357ar from "/public/assets/CR/images/fa080412_357ar.jpg";
-import fa080412_310ar from "/public/assets/CR/images/fa080412_310ar.jpg";
-import fa080204_041ar from "/public/assets/CR/images/fa080204_041ar.jpg";
-import fa071006_111ar from "/public/assets/CR/images/fa071006_111ar.jpg";
-import JL_School_780 from "/public/assets/CR/images/JL_School_780.jpg";
+import CaraBanner from "../../assets/CR/images/Buttons/CaraBanner.webp";
+import CaraSchoolHero from "../../assets/CR/images/fa080412_327ar.jpg";
+import fa080412_357ar from "../../assets/CR/images/fa080412_357ar.jpg";
+import fa080412_310ar from "../../assets/CR/images/fa080412_310ar.jpg";
+import fa080204_041ar from "../../assets/CR/images/fa080204_041ar.jpg";
+import fa071006_111ar from "../../assets/CR/images/fa071006_111ar.jpg";
+import JL_School_780 from "../../assets/CR/images/JL_School_780.jpg";
 
 export const CaraSchoolData = () => {
   const { currentTheme } = useTheme();

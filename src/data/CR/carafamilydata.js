@@ -1,14 +1,14 @@
 import { useTheme } from "../../hooks/useTheme";
-import CaraBanner from "/public/assets/CR/images/Buttons/CaraBanner.webp";
-import CaraFamilyHero from "/public/assets/CR/images/fa060704_093ar.jpg";
-import fa050710_154ar from "/public/assets/CR/images/fa050710_154ar.jpg";
-import fa030413_041ar from "/public/assets/CR/images/fa030413_041ar.jpg";
-import fa060617_365ar from "/public/assets/CR/images/fa060617_365ar.jpg";
-import fa040229_035ar from "/public/assets/CR/images/fa040229_035ar.jpg";
-import fa070707_001Bar from "/public/assets/CR/images/fa070707_001Bar.jpg";
-import fa060501_001Bar from "/public/assets/CR/images/fa060501_001Bar.jpg";
-import fa070128_100ar from "/public/assets/CR/images/fa070128_100ar.jpg";
-import fa070824_397ar from "/public/assets/CR/images/fa070824_397ar.jpg";
+import CaraBanner from "../../assets/CR/images/Buttons/CaraBanner.webp";
+import CaraFamilyHero from "../../assets/CR/images/fa060704_093ar.jpg";
+import fa050710_154ar from "../../assets/CR/images/fa050710_154ar.jpg";
+import fa030413_041ar from "../../assets/CR/images/fa030413_041ar.jpg";
+import fa060617_365ar from "../../assets/CR/images/fa060617_365ar.jpg";
+import fa040229_035ar from "../../assets/CR/images/fa040229_035ar.jpg";
+import fa070707_001Bar from "../../assets/CR/images/fa070707_001Bar.jpg";
+import fa060501_001Bar from "../../assets/CR/images/fa060501_001Bar.jpg";
+import fa070128_100ar from "../../assets/CR/images/fa070128_100ar.jpg";
+import fa070824_397ar from "../../assets/CR/images/fa070824_397ar.jpg";
 
 export const CaraFamilyData = () => {
   const { currentTheme } = useTheme();

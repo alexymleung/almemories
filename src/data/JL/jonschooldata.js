@@ -1,20 +1,20 @@
 import { useTheme } from "../../hooks/useTheme";
-import JonBanner from "/public/assets/JL/images/Buttons/JonathanBanner.webp";
+import JonBanner from "../../assets/JL/images/Buttons/JonathanBanner.webp";
 
-import JonSchoolHero from "/public/assets/JL/images/JL@School_060211_780.jpg";
-import fa080412_193ar from "/public/assets/JL/images/fa080412_193ar.jpg";
-import fa080412_181ar from "/public/assets/JL/images/fa080412_181ar.jpg";
-import JL_MissLEE_780 from "/public/assets/JL/images/JL_MissLEE_780.jpg";
-import fa080412_419ar from "/public/assets/JL/images/fa080412_419ar.jpg";
-import fa050909_066aar from "/public/assets/JL/images/fa050909_066aar.jpg";
-import fa070401_164ar from "/public/assets/JL/images/fa070401_164ar.jpg";
-import fa080412_313ar from "/public/assets/JL/images/fa080412_313ar.jpg";
-import fa080204_038ar from "/public/assets/JL/images/fa080204_038ar.jpg";
-import fa080412_402ar from "/public/assets/JL/images/fa080412_402ar.jpg";
-import fa070114_552ar from "/public/assets/JL/images/fa070114_552ar.jpg";
-import fa070401_067ar from "/public/assets/JL/images/fa070401_067ar.jpg";
-import fa080412_377ar from "/public/assets/JL/images/fa080412_377ar.jpg";
-import JL_School_780 from "/public/assets/JL/images/JL_School_780.jpg";
+import JonSchoolHero from "../../assets/JL/images/JL@School_060211_780.jpg";
+import fa080412_193ar from "../../assets/JL/images/fa080412_193ar.jpg";
+import fa080412_181ar from "../../assets/JL/images/fa080412_181ar.jpg";
+import JL_MissLEE_780 from "../../assets/JL/images/JL_MissLEE_780.jpg";
+import fa080412_419ar from "../../assets/JL/images/fa080412_419ar.jpg";
+import fa050909_066aar from "../../assets/JL/images/fa050909_066aar.jpg";
+import fa070401_164ar from "../../assets/JL/images/fa070401_164ar.jpg";
+import fa080412_313ar from "../../assets/JL/images/fa080412_313ar.jpg";
+import fa080204_038ar from "../../assets/JL/images/fa080204_038ar.jpg";
+import fa080412_402ar from "../../assets/JL/images/fa080412_402ar.jpg";
+import fa070114_552ar from "../../assets/JL/images/fa070114_552ar.jpg";
+import fa070401_067ar from "../../assets/JL/images/fa070401_067ar.jpg";
+import fa080412_377ar from "../../assets/JL/images/fa080412_377ar.jpg";
+import JL_School_780 from "../../assets/JL/images/JL_School_780.jpg";
 
 export const JonSchoolData = () => {
   const { currentTheme } = useTheme();

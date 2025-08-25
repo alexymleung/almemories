@@ -1,12 +1,12 @@
 import { useTheme } from "../../hooks/useTheme";
-import CaraBanner from "/public/assets/CR/images/Buttons/CaraBanner.webp";
-import CaraHobbyHero from "/public/assets/CR/images/fa060820_004ar.jpg";
-import fa041227_057ar from "/public/assets/CR/images/fa041227_057ar.jpg";
-import fa060212_336ar from "/public/assets/CR/images/fa060212_336ar.jpg";
-import fa040711_012ar from "/public/assets/CR/images/fa040711_012ar.jpg";
-import fa080406_221ar from "/public/assets/CR/images/fa080406_221ar.jpg";
-import fa040409_025ar from "/public/assets/CR/images/fa040409_025ar.jpg";
-import fa040725_122ar from "/public/assets/CR/images/fa040725_122ar.jpg";
+import CaraBanner from "../../assets/CR/images/Buttons/CaraBanner.webp";
+import CaraHobbyHero from "../../assets/CR/images/fa060820_004ar.jpg";
+import fa041227_057ar from "../../assets/CR/images/fa041227_057ar.jpg";
+import fa060212_336ar from "../../assets/CR/images/fa060212_336ar.jpg";
+import fa040711_012ar from "../../assets/CR/images/fa040711_012ar.jpg";
+import fa080406_221ar from "../../assets/CR/images/fa080406_221ar.jpg";
+import fa040409_025ar from "../../assets/CR/images/fa040409_025ar.jpg";
+import fa040725_122ar from "../../assets/CR/images/fa040725_122ar.jpg";
 
 export const CaraHobbyData = () => {
   const { currentTheme } = useTheme();

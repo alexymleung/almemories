@@ -1,14 +1,14 @@
 import { useTheme } from "../../hooks/useTheme";
-import ChrisBanner from "/public/assets/CL/images/Buttons/ChrisBanner.webp";
-import ChrisHobbyHero from "/public/assets/CL/images/fa071208_292ar.jpg";
-import fa030105_040ar from "/public/assets/CL/images/fa030105_040ar.jpg";
-import fa030406_104ar from "/public/assets/CL/images/fa030406_104ar.jpg";
-import fa060131_239ar from "/public/assets/CL/images/fa060131_239ar.jpg";
-import fa020120_130ar from "/public/assets/JL/images/fa020120_130ar.jpg";
-import fa040424_004ar from "/public/assets/CL/images/fa040424_004ar.jpg";
-import fa060115_260ar from "/public/assets/CL/images/fa060115_260ar.jpg";
-import fa070225_460ar from "/public/assets/CL/images/fa070225_460ar.jpg";
-import fa070107_625ar from "/public/assets/CL/images/fa070107_625ar.jpg";
+import ChrisBanner from "../../assets/CL/images/Buttons/ChrisBanner.webp";
+import ChrisHobbyHero from "../../assets/CL/images/fa071208_292ar.jpg";
+import fa030105_040ar from "../../assets/CL/images/fa030105_040ar.jpg";
+import fa030406_104ar from "../../assets/CL/images/fa030406_104ar.jpg";
+import fa060131_239ar from "../../assets/CL/images/fa060131_239ar.jpg";
+import fa020120_130ar from "../../assets/JL/images/fa020120_130ar.jpg";
+import fa040424_004ar from "../../assets/CL/images/fa040424_004ar.jpg";
+import fa060115_260ar from "../../assets/CL/images/fa060115_260ar.jpg";
+import fa070225_460ar from "../../assets/CL/images/fa070225_460ar.jpg";
+import fa070107_625ar from "../../assets/CL/images/fa070107_625ar.jpg";
 
 export const ChrisHobbyData = () => {
   const { currentTheme } = useTheme();

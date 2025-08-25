@@ -1,7 +1,7 @@
 import { useTheme } from "../../hooks/useTheme";
-import KarenBanner from "/public/assets/KH/images/Buttons/KarenBanner.webp";
-import KarenMusicHero from "/public/assets/KH/images/fa070107_593ar.jpg";
-import fa050305_129ar from "/public/assets/KH/images/fa050305_129ar.jpg";
+import KarenBanner from "../../assets/KH/images/Buttons/KarenBanner.webp";
+import KarenMusicHero from "../../assets/KH/images/fa070107_593ar.jpg";
+import fa050305_129ar from "../../assets/KH/images/fa050305_129ar.jpg";
 
 export const KarenMusicData = () => {
   const { currentTheme } = useTheme();
