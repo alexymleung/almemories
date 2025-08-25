@@ -1,7 +1,6 @@
 import { useTheme } from "../../hooks/useTheme";
-import CaraBanner from "../../assets/CR/images/Buttons/CaraBanner.webp";
-
-import CaraLinksHero from "../../assets/CR/images/fa071117_003B.jpg";
+import CaraBanner from "/public/assets/CR/images/Buttons/CaraBanner.webp";
+import CaraLinksHero from "/public/assets/CR/images/fa071117_003B.jpg";
 
 export const CaraLinksData = () => {
   const { currentTheme } = useTheme();

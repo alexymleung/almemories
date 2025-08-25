@@ -6,7 +6,7 @@ import eslint from "vite-plugin-eslint";
 
 // https://vite.dev/config/
 export default defineConfig(({ mode }) => ({
-  // base: mode === "production" ? "/almemories/" : "/",
+  base: mode === "production" ? "/almemories/" : "/",
   // base: "/almemories/",
   plugins: [react(), eslint()],
 }));

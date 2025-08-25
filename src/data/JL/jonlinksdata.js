@@ -1,7 +1,7 @@
 import { useTheme } from "../../hooks/useTheme";
-import JonBanner from "../../assets/JL/images/Buttons/JonathanBanner.webp";
+import JonBanner from "/public/assets/JL/images/Buttons/JonathanBanner.webp";
 
-import JonLinksHero from "../../assets/JL/images/fa020824_001B.jpg";
+import JonLinksHero from "/public/assets/JL/images/fa020824_001B.jpg";
 
 export const JonLinksData = () => {
   const { currentTheme } = useTheme();

@@ -1,7 +1,20 @@
 import { useTheme } from "../../hooks/useTheme";
-import JonBanner from "../../assets/JL/images/Buttons/JonathanBanner.webp";
+import JonBanner from "/public/assets/JL/images/Buttons/JonathanBanner.webp";
 
-import JonSchoolHero from "../../assets/JL/images/JL@School_060211_780.jpg";
+import JonSchoolHero from "/public/assets/JL/images/JL@School_060211_780.jpg";
+import fa080412_193ar from "/public/assets/JL/images/fa080412_193ar.jpg";
+import fa080412_181ar from "/public/assets/JL/images/fa080412_181ar.jpg";
+import JL_MissLEE_780 from "/public/assets/JL/images/JL_MissLEE_780.jpg";
+import fa080412_419ar from "/public/assets/JL/images/fa080412_419ar.jpg";
+import fa050909_066aar from "/public/assets/JL/images/fa050909_066aar.jpg";
+import fa070401_164ar from "/public/assets/JL/images/fa070401_164ar.jpg";
+import fa080412_313ar from "/public/assets/JL/images/fa080412_313ar.jpg";
+import fa080204_038ar from "/public/assets/JL/images/fa080204_038ar.jpg";
+import fa080412_402ar from "/public/assets/JL/images/fa080412_402ar.jpg";
+import fa070114_552ar from "/public/assets/JL/images/fa070114_552ar.jpg";
+import fa070401_067ar from "/public/assets/JL/images/fa070401_067ar.jpg";
+import fa080412_377ar from "/public/assets/JL/images/fa080412_377ar.jpg";
+import JL_School_780 from "/public/assets/JL/images/JL_School_780.jpg";
 
 export const JonSchoolData = () => {
   const { currentTheme } = useTheme();
@@ -57,79 +70,79 @@ export const JonSchoolData = () => {
   const jonschoolplates = [
     {
       plate: "plate01",
-      img: "/src/assets/JL/images/fa080412_193ar.jpg",
+      img: fa080412_193ar,
       title: "Plate 1",
       info: "林嫣莉校長和我攝於金禧校慶",
     },
     {
       plate: "plate02",
-      img: "/src/assets/JL/images/fa080412_181ar.jpg",
+      img: fa080412_181ar,
       title: "Plate 2",
       info: "Miss Leung with me",
     },
     {
       plate: "plate03",
-      img: "/src/assets/JL/images/JL_MissLEE_780.jpg",
+      img: JL_MissLEE_780,
       title: "Plate 3",
       info: "Miss Lee was my class master when I was in class 1A.",
     },
     {
       plate: "plate04",
-      img: "/src/assets/JL/images/fa080412_419ar.jpg",
+      img: fa080412_419ar,
       title: "Plate 4",
       info: "Taken with Miss Ng, mother and sister Cara.",
     },
     {
       plate: "plate05",
-      img: "/src/assets/JL/images/fa050909_066aar.jpg",
+      img: fa050909_066aar,
       title: "Plate 5",
       info: "A photo taken in 2005 with 李采嫣 who was my classmate in Kindergarten.",
     },
     {
       plate: "plate06",
-      img: "/src/assets/JL/images/fa070401_164ar.jpg",
+      img: fa070401_164ar,
       title: "Plate 6",
-      info: "From left to right,  father of Liu, 廖樂文, myself, my brother Chris, Miss Ng.",
+      info: "From left to right, father of Liu, 廖樂文, myself, my brother Chris, Miss Ng.",
     },
     {
       plate: "plate07",
-      img: "/src/assets/JL/images/fa080412_313ar.jpg",
+      img: fa080412_313ar,
       title: "Plate 7",
       info: "From left to right, 黃彥男, myself, 麥梓聰.",
     },
     {
       plate: "plate08",
-      img: "/src/assets/JL/images/fa080204_038ar.jpg",
+      img: fa080204_038ar,
       title: "Plate 8",
-      info: "Sister Cara giggling.With classmate and good friend 黃芊芊 and brother Chris. ",
+      info: "Sister Cara giggling.With classmate and good friend 黃芊芊 and brother Chris.",
     },
     {
       plate: "plate09",
-      img: "/src/assets/JL/images/fa080412_402ar.jpg",
+      img: fa080412_402ar,
       title: "Plate 9",
       info: "My good friend 王惠謙 and me.",
     },
     {
       plate: "plate10",
-      img: "/src/assets/JL/images/fa070114_552ar.jpg",
+      img: fa070114_552ar,
       title: "Plate 10",
       info: "Sand Castle Competition in Shek O on 14 January, 2007",
     },
     {
       plate: "plate11",
-      img: "/src/assets/JL/images/fa070401_067ar.jpg",
+      img: fa070401_067ar,
       title: "Plate 11",
       info: "Walk to the peak with scouts in the fool's day, 2007.",
     },
     {
       plate: "plate12",
-      img: "/src/assets/JL/images/fa080412_377ar.jpg",
+      img: fa080412_377ar,
       title: "Plate 12",
       info: "I was taking part in the Chi Nam Golden Jubilee Show.",
     },
     {
       plate: "plate13",
-      img: "/src/assets/JL/images/JL_School_780.jpg",
+      img: JL_School_780,
       title: "Plate 13",
       info: "My school, Tin Wan Chi Nam.",
     },

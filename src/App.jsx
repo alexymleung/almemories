@@ -892,6 +892,7 @@ const router = createBrowserRouter(
       </Route>
     </>
   )
+  // { basename: "/almemories" }
 );
 
 function App() {
