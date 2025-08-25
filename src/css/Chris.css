@@ -1,0 +1,73 @@
+body {
+  background-color: var(--chrisprimary);
+}
+
+.chris-main {
+  background-image: var(--chrissecondary);
+}
+
+/* MAIN NAVBAR INDIVIDUAL SETTINGS */
+
+/* Chris active - set BG color and Text for rest of Inactive tabs */
+.nav-chris .mainUlNav a {
+  color: var(--chrisbackground);
+  background-color: var(--chrisprimarytransparent); /* Base color */
+  border: 1px solid var(--chrisbackground);
+}
+
+/* Chris active - set BG color and Text for active tab */
+.nav-chris li a.active {
+  background-image: var(--chrisprimary1) !important;
+  color: var(--chrisprimary-text-active) !important;
+  border: 1px solid var(--chrisbackgroundtransparent);
+}
+
+/* SUB-NAVBAR INDIVIDUAL SETTINGS */
+
+/* CHRIS' SUB-NAVBAR SETTINGS */
+.chrisUlNav {
+  background-image: var(--chrisprimary2);
+}
+
+.chrisUlNav a {
+  color: var(--chrisprimary-text);
+}
+
+.chrisUlNav a.active {
+  background-color: var(--chrisbackgroundtransparent);
+  color: var(--chrisprimary-text-active);
+}
+
+/* PHOTO GALLERY STYLES */
+.chris .photo-gallery {
+  background-image: var(--chrissecondary);
+}
+
+.chris .thumbnail-box {
+  background-color: var(--chrisprimary);
+}
+
+/* PHOTO NAVIGATION */
+.chris .nav-button {
+  background: var(--chrisprimary);
+}
+
+.chris .nav-button i {
+  color: var(--chrissecondary-solid);
+}
+
+.chris .nav-button:hover {
+  background: var(--chrisprimary-text);
+}
+
+.chris .photo-plate {
+  background-image: var(--chrissecondary);
+}
+
+.chris .photo-plate h2 {
+  color: var(--chrisprimary-text);
+}
+
+.chris .plate-description {
+  background-color: var(--chrisbackgroundtransparent);
+}

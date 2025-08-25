@@ -1,0 +1,73 @@
+body {
+  background-color: var(--caraprimary);
+}
+
+.cara-main {
+  background-image: var(--carasecondary);
+}
+
+/* MAIN NAVBAR INDIVIDUAL SETTINGS */
+
+/* Cara active - set BG color and Text for rest of Inactive tabs */
+.nav-cara a {
+  color: var(--carabackground);
+  background-color: var(--caraprimarytransparent); /* Base color */
+  border: 1px solid var(--carabackground);
+}
+
+/* Cara active - set BG color and Text for active tab */
+.nav-cara li a.active {
+  background-image: var(--caraprimary1) !important;
+  color: var(--caraprimary-text-active) !important;
+  border: 1px solid var(--carabackgroundtransparent);
+}
+
+/* CARA's SUB-NAVBAR Settings */
+
+.caraUlNav {
+  width: var(--setWidth);
+  background-image: var(--caraprimary2);
+}
+
+.caraUlNav a {
+  color: var(--caraprimary-text);
+}
+
+.caraUlNav a.active {
+  background-color: var(--carabackgroundtransparent);
+  color: var(--caraprimary-text-active);
+}
+
+/* PHOTO GALLERY STYLES */
+.cara .photo-gallery {
+  background-image: var(--carasecondary);
+}
+
+.cara .thumbnail-box {
+  background-color: var(--caraprimary);
+}
+
+/* PHOTO NAVIGATION */
+.cara .nav-button {
+  background: var(--caraprimary);
+}
+
+.cara .nav-button i {
+  color: var(--carasecondary-solid);
+}
+
+.cara .nav-button:hover {
+  background: var(--caraprimary-text);
+}
+
+.cara .photo-plate {
+  background-image: var(--carasecondary);
+}
+
+.cara .photo-plate h2 {
+  color: var(--caraprimary-text);
+}
+
+.cara .plate-description {
+  background-color: var(--carabackgroundtransparent);
+}
