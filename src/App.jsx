@@ -891,8 +891,8 @@ const router = createBrowserRouter(
         <Route path="*" element={<h1>PAGE NOT FOUND</h1>} />
       </Route>
     </>
-  )
-  // { basename: "/almemories" }
+  ),
+  { basename: "/almemories" }
 );
 
 function App() {
