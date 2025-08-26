@@ -18,6 +18,7 @@ function PhotoPage({
   return (
     <>
       <div id="container" className={cssClass}>
+        <div className="sticky">{<SubNavbar />}</div>
         {/* <HeaderNav SubNavbar={SubNavbar} headerData={headerData} /> */}
 
         {/* PHOTO PLATE */}
