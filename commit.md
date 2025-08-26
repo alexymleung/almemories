@@ -1,3 +1,11 @@
+- fc3f8b2 (master) 20 commit, add commit file
+- ee79c97 (HEAD -> master) 19th commit, fix image path for production
+- eccdb08 (origin/master) 18th commit, context consolidated, add check photoNo for PrevNextHandler, add color gradient to sec and background, total 405 pages
+- 3972b9d 17th commit, karen part done, project completed, Total 402pages
+- 9350892 16th commit, fix subroute error, photoPage no banner, Add Homepage with carousel
+- 7c43581 15th commit, secitons Jon, CL & CR completed, framework for KH also done
+- 92ecc84 14th commit, 1st level framing, photo & plates for all completed.
+- 167a16e 13th commit, Links pages, add media link, cleanup css. Jon 100% done.
 - 47321cf 12th commit, create usePrevNexthandler.js, fix browser nav bug by addEventListenerpopstate(ThemeProvider)
 - 5c75cb6 11th commit, split data into separate files, reorganize jondata jondata2 into jondata and jonfamiydata; refactoring HeaderNav component, Jonathan part 95% completed
 - 0145b45 10th commit, created topic state using useContext, photopage dynamically rendered using useContext, also for photoNo.
@@ -11,6 +19,14 @@
 - df401a9 2nd commit, 2 levels of Navbar completed.
 - bfce2e6 1st commit, router with nested structure created
 
-git checkout bfce2e6
-
 git commit for react_Memories
+git checkout bfce2e6
+.eslintrc.cjs file missing
+JonathanBanner.jpg missing
+
+git checkout df401a9
+ChrisBanner.jpg missing
+
+git checkout 8f377a8 (HTML semantics, SubNavbar refactoring)
+
+git checkout fc3f8b2

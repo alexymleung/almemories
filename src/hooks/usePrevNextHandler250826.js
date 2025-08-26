@@ -3,20 +3,12 @@ import { useNavigate } from "react-router-dom";
 function usePrevNextHandler(name, alias, topics, photoNo) {
   const navigate = useNavigate();
 
-  // Extract topic directly from URL path
+  // Use the topics parameter directly instead of parsing from URL
+  // This avoids the complex path parsing logic that was causing issues
   const getCurrentTopic = () => {
-    const path = window.location.pathname;
-
-    // Simple regex to extract topic from path
-    const topicMatch = path.match(
-      /\/([a-z]+)(family|school|music|sports|hobby|photos|links|info)/i
-    );
-
-    if (topicMatch && topicMatch[2]) {
-      return topicMatch[2].toLowerCase();
-    }
-
-    // Fallback to topics parameter if provided
+    // topics parameter should contain the current topic (e.g., "family", "photos", etc.)
+    // If topics is not provided or invalid, fall back to "info"
+    console.log("Topics parameter received:", topics);
     if (topics && typeof topics === "string") {
       return topics;
     }
@@ -51,15 +43,22 @@ function usePrevNextHandler(name, alias, topics, photoNo) {
     const plateNum = parseInt(currentPath.match(/plate(\d+)/)?.[1] || "1");
     const currentTopic = getCurrentTopic();
 
+    console.log("Current path:", currentPath);
+    console.log("Plate number:", plateNum);
+    console.log("Current topic:", currentTopic);
+    console.log("Name:", name);
+    console.log("Alias:", alias);
+
     if (plateNum === photoNo) {
-      navigate(`/${name}/${alias}${currentTopic}/plate01`);
+      const targetPath = `/${name}/${alias}${currentTopic}/plate01`;
+      console.log("Navigating to:", targetPath);
+      navigate(targetPath);
     } else if (plateNum >= 1 && plateNum < photoNo) {
-      navigate(
-        `/${name}/${alias}${currentTopic}/plate${String(plateNum + 1).padStart(
-          2,
-          "0"
-        )}`
-      );
+      const targetPath = `/${name}/${alias}${currentTopic}/plate${String(
+        plateNum + 1
+      ).padStart(2, "0")}`;
+      console.log("Navigating to:", targetPath);
+      navigate(targetPath);
     }
   };
 
